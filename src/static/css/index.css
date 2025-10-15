@@ -87,3 +87,70 @@ i{
     color:black;
     padding:2%;
 }
+/*for tab*/
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    body {
+        flex-direction: column;
+    }
+    #showpage {
+        margin-left: 250px;
+    }
+    #timer {
+        height: auto;
+        margin-left: 250px;
+    }
+    #timer-head {
+        font-size: 24px;
+    }
+    #seconds, #minutes {
+        font-size: 3.5em;
+    }
+    #colon {
+        font-size: 3.5em;
+    }
+    #form {
+        width: 60vw;
+        margin-left: 5vw;
+    }
+    #history {
+        margin-left: 250px;
+    }
+}
+
+/* for mobile*/
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+    #showpage {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 5%;
+        height: auto;
+    }
+    #timer {
+        height: auto;
+        padding: 5%;
+        margin-top: 20px;
+    }
+    #timer-head {
+        font-size: 20px;
+    }
+    #seconds, #minutes {
+        font-size: 2.5em;
+    }
+    #colon {
+        font-size: 2.5em;
+    }
+    #form {
+        width: 90vw;
+        margin-left: 0;
+    }
+    #scan-port-button {
+        margin: 1vw 0 1vw 25vw;
+    }
+    #history {
+        height: auto;
+        padding: 5%;
+    }
+}
